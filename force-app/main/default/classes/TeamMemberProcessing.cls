@@ -2,7 +2,7 @@ public class TeamMemberProcessing implements Schedulable, Database.Batchable<Tea
 {
 	public void execute(SchedulableContext ctx)
     {
-        database.executeBatch(this);
+        database.executeBatch(this, 100);
     }
     
     public Iterable<Team_Member__c> start(Database.BatchableContext ctx)

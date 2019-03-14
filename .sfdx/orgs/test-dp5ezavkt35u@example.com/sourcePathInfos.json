@@ -367,10 +367,10 @@
             "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberProcessing.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 1032,
-            "modifiedTime": 1552586707696,
-            "changeTime": 1552586707696,
-            "contentHash": "e5896d39ae8980ebcd163c3954c361aa855f76b8"
+            "size": 1037,
+            "modifiedTime": 1552589589129,
+            "changeTime": 1552589589129,
+            "contentHash": "0705530422ef6dd70193b39d6d729a64e10a9a8f"
         }
     ],
     [
@@ -389,14 +389,14 @@
     [
         "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes",
         {
+            "state": "u",
             "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes",
             "isDirectory": true,
-            "size": 128,
-            "modifiedTime": 1552576881326,
-            "changeTime": 1552576881326,
-            "contentHash": "566e0f9d9d152c425b27bff0caa65246a707f2a5",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 192,
+            "modifiedTime": 1552589589132,
+            "changeTime": 1552589589132,
+            "contentHash": "d36ec6b322b72a725c4de54be8ed08a7838eb020"
         }
     ],
     [
@@ -410,6 +410,32 @@
             "contentHash": "ab3ae7b246bda8842f011e0d5df3af35d6b091d8",
             "isMetadataFile": true,
             "state": "u"
+        }
+    ],
+    [
+        "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberProcessingTests.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberProcessingTests.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1552589589131,
+            "changeTime": 1552589589131,
+            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730"
+        }
+    ],
+    [
+        "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberProcessingTests.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberProcessingTests.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 801,
+            "modifiedTime": 1552589589132,
+            "changeTime": 1552589589132,
+            "contentHash": "93f0ecaaa581e4df44aba0594486da22182f47d7"
         }
     ]
 ]
