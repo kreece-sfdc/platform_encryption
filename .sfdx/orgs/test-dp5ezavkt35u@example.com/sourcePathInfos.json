@@ -157,10 +157,10 @@
         {
             "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/layouts/Team_Member__c-Team Member Layout.layout-meta.xml",
             "isDirectory": false,
-            "size": 3089,
-            "modifiedTime": 1552576881321,
-            "changeTime": 1552576881321,
-            "contentHash": "91581ec25ea65a043e278bc5e6a76a5915c58278",
+            "size": 3491,
+            "modifiedTime": 1552656485207,
+            "changeTime": 1552656485207,
+            "contentHash": "0fde40a18124bd6201c2647761f15affca03a56e",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -261,10 +261,10 @@
         {
             "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/objects/Team_Member__c/fields",
             "isDirectory": true,
-            "size": 160,
-            "modifiedTime": 1552581670173,
-            "changeTime": 1552581670173,
-            "contentHash": "b07703d83ecf473886a6dfd1feeb038fa1102cb6",
+            "size": 288,
+            "modifiedTime": 1552656485201,
+            "changeTime": 1552656485201,
+            "contentHash": "5bf9fa35dc7e866d265ab6c08a31ffbebcd6aab9",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -339,10 +339,10 @@
         {
             "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/workflows/Team_Member__c.workflow-meta.xml",
             "isDirectory": false,
-            "size": 1043,
-            "modifiedTime": 1552586174896,
-            "changeTime": 1552586174896,
-            "contentHash": "71a6e88dfad28bdd091c31ffb6f47736b3c83c1a",
+            "size": 2622,
+            "modifiedTime": 1552656485211,
+            "changeTime": 1552656485211,
+            "contentHash": "dd1107658bbf943a3a41300c65f30300f6b56f80",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -363,14 +363,14 @@
     [
         "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberProcessing.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberProcessing.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1037,
             "modifiedTime": 1552589589129,
             "changeTime": 1552589589129,
-            "contentHash": "0705530422ef6dd70193b39d6d729a64e10a9a8f"
+            "contentHash": "0705530422ef6dd70193b39d6d729a64e10a9a8f",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -389,14 +389,14 @@
     [
         "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes",
         {
-            "state": "u",
             "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes",
             "isDirectory": true,
+            "size": 384,
+            "modifiedTime": 1552656485222,
+            "changeTime": 1552656485222,
+            "contentHash": "b26bf5585eaaedb6831763bec6378be1e3c0c925",
             "isMetadataFile": false,
-            "size": 192,
-            "modifiedTime": 1552589589132,
-            "changeTime": 1552589589132,
-            "contentHash": "d36ec6b322b72a725c4de54be8ed08a7838eb020"
+            "state": "u"
         }
     ],
     [
@@ -415,27 +415,157 @@
     [
         "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberProcessingTests.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberProcessingTests.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1552589589131,
             "changeTime": 1552589589131,
-            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730"
+            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberProcessingTests.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberProcessingTests.cls",
             "isDirectory": false,
+            "size": 1793,
+            "modifiedTime": 1552656485220,
+            "changeTime": 1552656485220,
+            "contentHash": "c2b37c5ba07457e6880379f18a0bca1471065be7",
             "isMetadataFile": false,
-            "size": 801,
-            "modifiedTime": 1552589589132,
-            "changeTime": 1552589589132,
-            "contentHash": "93f0ecaaa581e4df44aba0594486da22182f47d7"
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kreece/sfdx/sage_encryption/force-app/main/default/objects/Team_Member__c/fields/Age__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/objects/Team_Member__c/fields/Age__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 467,
+            "modifiedTime": 1552591809753,
+            "changeTime": 1552591809753,
+            "contentHash": "84f077bb1d7b2b2c22b0c2fd7c84076b4321c4d7",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kreece/sfdx/sage_encryption/force-app/main/default/objects/Team_Member__c/fields/Age_Range__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/objects/Team_Member__c/fields/Age_Range__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 480,
+            "modifiedTime": 1552656485200,
+            "changeTime": 1552656485200,
+            "contentHash": "db7e586084f659364586b5af816273bdf04f55de",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kreece/sfdx/sage_encryption/force-app/main/default/objects/Team_Member__c/fields/Forename__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/objects/Team_Member__c/fields/Forename__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 479,
+            "modifiedTime": 1552656485201,
+            "changeTime": 1552656485201,
+            "contentHash": "1a9489895331efc4a1f7734c603b3d1393f2fa70",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kreece/sfdx/sage_encryption/force-app/main/default/objects/Team_Member__c/fields/Surname__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/objects/Team_Member__c/fields/Surname__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 477,
+            "modifiedTime": 1552656485201,
+            "changeTime": 1552656485201,
+            "contentHash": "97467b87a7efde1fef67fad015771fa417626a7b",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/Sorter.cls-meta.xml",
+        {
+            "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/Sorter.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1552656485212,
+            "changeTime": 1552656485212,
+            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/Sorter.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/Sorter.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 119,
+            "modifiedTime": 1552658303765,
+            "changeTime": 1552658303765,
+            "contentHash": "98953f19fb6d21a9d345e6c0a3a556896baaee6d"
+        }
+    ],
+    [
+        "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberSort.cls-meta.xml",
+        {
+            "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberSort.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1552656485216,
+            "changeTime": 1552656485216,
+            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberSort.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberSort.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 793,
+            "modifiedTime": 1552658303763,
+            "changeTime": 1552658303763,
+            "contentHash": "7eed12da29e71c247d1b4f628bba8fd2bf1d8895"
+        }
+    ],
+    [
+        "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberQueries.cls-meta.xml",
+        {
+            "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberQueries.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1552656485221,
+            "changeTime": 1552656485221,
+            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberQueries.cls",
+        {
+            "sourcePath": "/Users/kreece/sfdx/sage_encryption/force-app/main/default/classes/TeamMemberQueries.cls",
+            "isDirectory": false,
+            "size": 791,
+            "modifiedTime": 1552656485222,
+            "changeTime": 1552656485222,
+            "contentHash": "ff062c34c2f69f65342ae899e8f07a076ddfef20",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ]
 ]

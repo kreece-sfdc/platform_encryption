@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <fieldUpdates>
+        <fullName>Age_Range_Update</fullName>
+        <field>Age_Range__c</field>
+        <formula>IF ( VALUE( Age__c ) &lt; 10, &quot;0-9&quot;,
+IF ( VALUE( Age__c ) &lt; 20, &quot;10-19&quot;, 
+IF ( VALUE( Age__c ) &lt; 30, &quot;20-29&quot;, 
+IF ( VALUE( Age__c ) &lt; 40, &quot;30-39&quot;, 
+IF ( VALUE( Age__c ) &lt; 50, &quot;40-49&quot;, 
+IF ( VALUE( Age__c ) &lt; 60, &quot;50-59&quot;, 
+IF ( VALUE( Age__c ) &lt; 70, &quot;60-69&quot;, 
+IF ( VALUE( Age__c ) &lt; 80, &quot;70-79&quot;, 
+IF ( VALUE( Age__c ) &lt; 90, &quot;80-89&quot;, 
+IF ( VALUE( Age__c ) &lt; 100, &quot;90-100&quot;, &quot;100+&quot; ) ) ) ) ) ) ) ) ) )</formula>
+        <name>Age Range Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Age_Update</fullName>
+        <field>Age__c</field>
+        <formula>TEXT ( IF( DATE(YEAR(TODAY()), MONTH( Date_of_Birth__c ) , DAY( Date_of_Birth__c ) ) &lt;= TODAY(), YEAR( TODAY() ) - YEAR( Date_of_Birth__c ), ( YEAR( TODAY() ) - YEAR( Date_of_Birth__c ) ) - 1 ) )</formula>
+        <name>Age Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
         <fullName>Next_Birthday_Update</fullName>
         <field>Next_Birthday__c</field>
         <formula>IF(DATE(YEAR(TODAY()),MONTH( Date_of_Birth__c ),DAY( Date_of_Birth__c )) &gt; TODAY(), DATE(YEAR(TODAY()),MONTH( Date_of_Birth__c ),DAY( Date_of_Birth__c )), DATE(YEAR(TODAY())+1,MONTH( Date_of_Birth__c ),DAY( Date_of_Birth__c )))</formula>
@@ -10,7 +37,15 @@
         <protected>false</protected>
     </fieldUpdates>
     <rules>
-        <fullName>Next Birthday</fullName>
+        <fullName>Calculation Date Change</fullName>
+        <actions>
+            <name>Age_Range_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Age_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
         <actions>
             <name>Next_Birthday_Update</name>
             <type>FieldUpdate</type>
